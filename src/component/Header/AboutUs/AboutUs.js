@@ -4,14 +4,17 @@ import "./AboutUs.css"
 const AboutUs = () => {
     return (
         <div>
-            <div className="conatiner col-12 text-center text-light" style={{ backgroundImage: `url(${backgroundImg})`, height: "600px", backgroundRepeat: 'no-repeat' }}>
-                <div className="my-hero">
-                    <h1 style={{ fontSize: '50px', color: '#fbc531' }}>Welcome to our Elearn platform</h1>
-                    <p>We are provide lot of free training here</p>
-                    <button className='btn btn-warning text-light'>Courses</button>
+            <div className='row w-75 mx-auto'>
+                <h1 className='text-center text-success pb-4'>About Us</h1>
+                <div className="col-md-6 pt-4">
+                    <p className='fw-bold'>We are trying to developed new education system for everyone and we provide scholarship our married poor students</p>
+                    <p className='fw-bold'>We are committed to provide high quality contents</p>
+
                 </div>
-            </div>
-            <div>
+                <div className="col-md-6 pb-4">
+                    <img className='img-fluid' src={backgroundImg} alt="" />
+
+                </div>
 
             </div>
         </div>

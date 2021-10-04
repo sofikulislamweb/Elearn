@@ -42,7 +42,10 @@ const Hero = () => {
             <div className='row w-75 mx-auto pt-4'>
                 <h1 className='text-warning text-center'>Our Best Courses</h1>
                 {
-                    items.map(item => <HomeItems item={item}></HomeItems>)
+                    items.map(item => <HomeItems
+                        key={item.id}
+                        item={item}
+                    ></HomeItems>)
                 }
 
             </div>

@@ -15,7 +15,10 @@ const Courses = () => {
             <h1 className='text-warning text-center'>Our All Courses</h1>
             <p className='text-center'>Quick Enroll and get worldclass course</p>
             {
-                courses.map(course => <Course course={course}></Course>)
+                courses.map(course => <Course
+                    key={course.id}
+                    course={course}
+                ></Course>)
             }
 
         </div>

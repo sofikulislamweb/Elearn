@@ -16,9 +16,11 @@ const Header = () => {
                 <Navbar.Brand href="#home" className='text-warning'>Elearn</Navbar.Brand>
                 <Nav className="me-auto">
                     <Link to="/home" style={style}>Home</Link>
-                    <Link to="/contact" style={style}>Contact</Link>
-                    <Link to="/about" style={style}>About Us</Link>
                     <Link to="/courses" style={style}>Courses</Link>
+                    <Link to="/about" style={style}>About Us</Link>
+                    <Link to="/contact" style={style}>Contact</Link>
+
+
 
                 </Nav>
             </Container>
