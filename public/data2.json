@@ -1,0 +1,30 @@
+[
+    {
+        "id": "01",
+        "price": "100",
+        "name": "Data",
+        "img": "https://demos.wplms.io/learningcenter/wp-content/uploads/2020/07/course3.png",
+        "Title": "Data mining"
+    },
+    {
+        "id": "02",
+        "price": "180",
+        "name": "Software",
+        "img": "https://demos.wplms.io/learningcenter/wp-content/uploads/2020/07/course4.png",
+        "Title": "Software Training"
+    },
+    {
+        "id": "03",
+        "price": "120",
+        "name": "Design",
+        "img": "https://demos.wplms.io/learningcenter/wp-content/uploads/2020/07/course2-1.png",
+        "Title": "Design Dynamics"
+    },
+    {
+        "id": "04",
+        "price": "140",
+        "name": "DESIGN",
+        "img": "https://demos.wplms.io/learningcenter/wp-content/uploads/2020/07/course6.png",
+        "Title": "Understanding Color Psychology"
+    }
+]
