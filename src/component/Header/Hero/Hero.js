@@ -14,7 +14,7 @@ const Hero = () => {
     }, [])
     return (
         <div>
-            <div className="conatiner col-12 text-center text-light" style={{ backgroundImage: `url(${backgroundImg})`, height: "600px", backgroundRepeat: 'no-repeat' }}>
+            <div className="text-center text-light" style={{ backgroundImage: `url(${backgroundImg})`, height: "600px", backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                 <div className="my-hero">
                     <h1 style={{ fontSize: '50px', color: '#fbc531' }}>Welcome to our Elearn platform</h1>
                     <p>We are provide lot of free training here</p>
@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
 
             <div style={{ backgroundColor: '#fff' }} className='row p-4'>
-                <h4 className='text-dark xl text-center'>One app for all devices Mobile, Tablet, Desktop & TV</h4>
+                <h4 className='text-dark xl text-center p-4'>One app for all devices Mobile, Tablet, Desktop & TV</h4>
                 <div className="col-md-4">
                     <p>Mobile first design</p>
                     <small>The version 4 is built with mobile centeric design pattern and the latest Progressive web app technology.</small>
