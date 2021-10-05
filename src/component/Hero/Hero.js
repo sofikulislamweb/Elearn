@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import backgroundImg from '../../../images/hero.jpg';
-import home2 from '../../../images/home2.png';
-import home3 from '../../../images/home3.png';
+import backgroundImg from '../../images/hero.jpg';
+import home2 from '../../images/home2.png';
+import home3 from '../../images/home3.png';
 import HomeItems from '../HomeItems/HomeItems';
 import "./Hero.css";
 
@@ -39,7 +39,7 @@ const Hero = () => {
                 </div>
 
             </div>
-            <div className='row w-75 mx-auto pt-4'>
+            <div className='row mx-auto pt-4 align-items-center justify-content-center'>
                 <h1 className='text-warning text-center'>Our Best Courses</h1>
                 {
                     items.map(item => <HomeItems

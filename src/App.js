@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import AboutUs from './component/Header/AboutUs/AboutUs';
-import ContactUs from './component/Header/ContactUs/ContactUs';
-import Courses from './component/Header/Courses/Courses';
-import Footer from './component/Header/Footer/Footer';
+import AboutUs from './component/AboutUs/AboutUs';
+import Footer from './component/Footer/Footer';
+import NotFound from './component/Notfound/NotFound';
+import ContactUs from './component/ContactUs/ContactUs';
+import Courses from './component/Courses/Courses';
 import Header from './component/Header/Header';
-import Hero from './component/Header/Hero/Hero';
-import NotFound from './component/Header/Notfound/NotFound';
+import Hero from './component/Hero/Hero';
+
 
 function App() {
   return (

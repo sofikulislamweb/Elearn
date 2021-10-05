@@ -3,8 +3,8 @@ import React from 'react';
 const HomeItems = (props) => {
     const { img, name, Title, price } = props.item;
     return (
-        <div className="card mb-3 col-md-6 " style={{ maxWidth: "540px" }}>
-            <div className="row g-0 align-items-center">
+        <div className="card mb-4  col-md-6 " style={{ maxWidth: "540px" }}>
+            <div className="row align-items-center">
                 <div className="col-md-6">
                     <img src={img} className="img-fluid rounded-start" alt="..." />
                 </div>

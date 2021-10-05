@@ -1,6 +1,6 @@
 import React from 'react';
-import backgroundImg from '../../../images/about.jpg'
-import backgroundImg2 from '../../../images/about2.jpg'
+import backgroundImg from '../../images/about.jpg'
+import backgroundImg2 from '../../images/about2.jpg'
 
 import "./AboutUs.css"
 const AboutUs = () => {
